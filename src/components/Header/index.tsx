@@ -16,7 +16,7 @@ export function Header() {
 					/>
 
 					<MenuLink
-						link={'/'}
+						link={'/subscribe'}
 						name={'Inscreva-se'}
 					/>
 				</ul>
