@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 interface MenuLinkProps {
 	link: string;
 	name: string;
@@ -6,7 +8,7 @@ interface MenuLinkProps {
 export function MenuLink({ link, name }: MenuLinkProps) {
 	return (
 		<li className="hover:scale-110 transition-all">
-			<a href={link}>{name}</a>
+			<Link to={link}>{name}</Link>
 		</li>
 	);
 }

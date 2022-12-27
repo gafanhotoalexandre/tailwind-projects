@@ -11,7 +11,7 @@ export function Header() {
 					/>
 
 					<MenuLink
-						link={'/'}
+						link={'/about'}
 						name={'Sobre'}
 					/>
 
