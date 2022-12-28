@@ -10,4 +10,8 @@
 	.bg-alura {
 		@apply bg-gradient-to-r from-purple-400 to-blue-600;
 	}
+
+	.bg-about {
+		@apply bg-blue-light;
+	}
 }

@@ -4,6 +4,9 @@ import LogoTailwind from '../../assets/logo-tailwind.png';
 export function Hello() {
 
 	useLayoutEffect(() => {
+		// "solução" temporária
+		document.body.classList.remove('bg-alura');
+
 		document.body.classList.add('bg-alura');
 	}, []);
 
