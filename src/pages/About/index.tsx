@@ -1,4 +1,5 @@
 import { useLayoutEffect } from "react";
+import { SocialLinks } from "./SocialLinks";
 
 export function About() {
 
@@ -14,11 +15,7 @@ export function About() {
 			<p className="text-2xl md:text-4xl lg:text-6xl font-black text-primary">Alexandre</p>
 			<p className="text-xl md:text-2xl lg:text-4xl">Desenvolvedor Front-end</p>
 
-			<ul className="flex gap-3">
-				<li><a href="" className="hover:font-bold hover:text-primary duration-150 delay-200" target="_blank">Linkedin</a></li>
-				<li><a href="mailto:alexandrevmartinsdelima@gmail.com" className="hover:font-bold hover:text-primary duration-150 delay-200" target="_blank">E-mail</a></li>
-				<li><a href="https://github.com/gafanhotoalexandre" className="hover:font-bold hover:text-primary duration-150 delay-200" target="_blank">Github</a></li>
-			</ul>
+			<SocialLinks />
 		</div>
 	);
 }
